@@ -6,14 +6,18 @@ Nothing in particular.
 
 ```ruby
 #Gemfile
-
-gem 'jizou', git: git@github.com:hrysd/jizou.git
+gem 'jizou', git: 'git@github.com:hrysd/jizou.git'
 ```
 
 ## Usage
+before using gem, need to make bot of Lingr.
+
+[Lingr/developer](http://lingr.com/developer)
 
 ```ruby
-bot = Jizou::Bot.new do
+require 'jizou'
+
+bot = Jizou.bot do
   set bot_id: 'BOTID'
   set room_id: 'ROOMID'
   set secret: 'SECRET'
