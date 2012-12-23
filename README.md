@@ -1,24 +1,26 @@
 # Jizou
 
-TODO: Write a gem description
+Nothing in particular.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+```ruby
+#Gemfile
 
-    gem 'jizou'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jizou
+gem 'jizou', git: git@github.com:hrysd/jizou.git
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+bot = Jizou::Bot.new do
+  set bot_id: 'BOTID'
+  set room_id: 'ROOMID'
+  set secret: 'SECRET'
+end
+
+bot.update('Hello World!')
+```
 
 ## Contributing
 
