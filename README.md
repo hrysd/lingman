@@ -6,7 +6,7 @@ Nothing in particular.
 
 ```ruby
 #Gemfile
-gem 'lingman', git: 'git@github.com:hrysd/lingman.git'
+gem 'lingman', git: 'git://github.com/hrysd/lingman.git'
 ```
 
 ## Usage
