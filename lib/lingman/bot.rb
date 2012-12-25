@@ -1,7 +1,7 @@
 require 'net/http'
-require 'jizou/configure'
+require 'lingman/configure'
 
-module Jizou
+module Lingman
   class Bot
     include Configure
 

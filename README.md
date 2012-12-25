@@ -6,7 +6,7 @@ Nothing in particular.
 
 ```ruby
 #Gemfile
-gem 'jizou', git: 'git@github.com:hrysd/jizou.git'
+gem 'lingman', git: 'git@github.com:hrysd/lingman.git'
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ before using gem, need to make bot of Lingr.
 [Lingr/developer](http://lingr.com/developer)
 
 ```ruby
-require 'jizou'
+require 'lingman'
 
-bot = Jizou.bot do
-  set bot_id: 'BOTID'
-  set room_id: 'ROOMID'
-  set secret: 'SECRET'
+bot = Lingman.bot do
+  set :bot_id,  'BOTID'
+  set :room_id, 'ROOMID'
+  set :secret,  'SECRET'
 end
 
 bot.update('Hello World!')

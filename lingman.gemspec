@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jizou/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "jizou"
+  gem.name          = "lingman"
   gem.version       = Jizou::VERSION
   gem.authors       = ["Hiroshi Yoshida"]
   gem.email         = ["hrysd22@gmail.com"]

@@ -1,9 +1,10 @@
 require 'digest/sha1'
 
-module Jizou
+module Lingman
   module Configure
-    def set(option)
-      config.merge!(option)
+    def set(*options)
+      raise ArgumentError if options.size > 3
+      config.merge!(options[0] => options[1])
     end
 
     def config
