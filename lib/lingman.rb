@@ -1,5 +1,5 @@
-require 'net/http'
 require "lingman/bot"
+require "lingman/updater"
 require "lingman/version"
 
 module Lingman

@@ -1,5 +1,3 @@
-require 'digest/sha1'
-
 module Lingman
   module Configure
     def set(*options)
@@ -9,10 +7,6 @@ module Lingman
 
     def config
       @config ||= {}
-    end
-
-    def verifier
-      Digest::SHA1.hexdigest(config[:bot_id]+ config[:secret])
     end
   end
 end
