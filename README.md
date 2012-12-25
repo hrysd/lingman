@@ -24,6 +24,16 @@ bot = Lingman.bot do
 end
 
 bot.update('Hello World!')
+
+# or
+
+Lingman::Updater.update(
+  'BOTID',
+  'ROOMID',
+  'SECRET',
+  'TEXT'
+  )
+
 ```
 
 ## Contributing
