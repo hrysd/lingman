@@ -1,4 +1,4 @@
-# Jizou
+# Lingman
 
 Nothing in particular.
 
@@ -32,7 +32,7 @@ Lingman::Updater.update(
   'ROOMID',
   'SECRET',
   'TEXT'
-  )
+)
 
 ```
 
