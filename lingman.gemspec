@@ -5,7 +5,7 @@ require 'lingman/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "lingman"
-  gem.version       = Jizou::VERSION
+  gem.version       = Lingman::VERSION
   gem.authors       = ["Hiroshi Yoshida"]
   gem.email         = ["hrysd22@gmail.com"]
   gem.description   = %q{I wanna be LingrAPI wrapper}
